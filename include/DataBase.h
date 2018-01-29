@@ -18,13 +18,12 @@ private:
     MYSQL* connection;
     MYSQL_ROW row;
     MYSQL_RES* result;
-    int querystate; // store query status after execution error if 0.
+    int querystate; // it indicates error if the return isn't 0, it must be 0
 public:
     DataBase(string localhost, string user, string password, string database);
     void insertInto(string name, string lastname, string birth, string password);
-
-
-
+    void displayAllRecords();
+    bool clearTable();
 };
 
 #endif // DATABASE_H

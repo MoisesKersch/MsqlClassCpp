@@ -60,3 +60,18 @@
 
 1517240761 c:\users\light\documents\databaseclass\include\mysql\include\mysql\psi\psi_base.h
 
+1517251399 source:c:\users\light\documents\mysqlclasscpp\src\database.cpp
+	"DataBase.h"
+	<iostream>
+	<winsock.h>
+	"mysql.h"
+
+1517250562 c:\users\light\documents\mysqlclasscpp\include\database.h
+	<iostream>
+	<winsock.h>
+	<mysql.h>
+
+1517251423 source:c:\users\light\documents\mysqlclasscpp\main.cpp
+	<iostream>
+	<DataBase.h>
+
